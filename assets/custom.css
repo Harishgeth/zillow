@@ -1,0 +1,255 @@
+*{
+    font-family: "Helvetica Neue", serif;
+}
+body{
+    background:  #006AFF;
+}
+.tab {
+         color: white;
+         background-color: #006AFF !important;
+}
+
+.tab--selected {
+         color: black;
+         background-color: white !important;
+         font-weight: bold;
+}
+
+.site-logo{
+    width: 160px !important;
+    height: 35px !important;
+    margin-top: 2vh;
+}
+
+.zexp-header{
+    margin-left: 10vw;
+    font-size: 40px;
+    font-weight: 400;
+    min-width: 45vw;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.course-specifics{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.course-specifics span{
+    font-weight: 500;
+}
+
+.fips-selector{
+    min-width: 30vw;
+}
+
+.graph-with-radio-buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap:5px;
+}
+.radio-buttons-g{
+    padding: 10px;
+    padding-left: 5px;
+}
+.radio-buttons-g *{
+   margin-left: 10px;
+}
+/*.graph-with-radio-buttons *{*/
+/*    padding: 10px;*/
+/*}*/
+
+.plots-tab1{
+    display: flex;
+    flex-direction: row;
+}
+
+.selection-line-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.sli-label{
+    padding-right: 10px;
+    font-weight: 500;
+}
+
+
+.tab1-graphs{
+    min-width: 40vw;
+}
+
+.error-message{
+    color:red;
+}
+
+.t1-bins-ip{
+    max-width: 100px;
+    margin-left: 5px;
+}
+.bins-field {
+    margin-left: 20px;
+}
+
+.slider-range{
+    min-width: 60vw;
+}
+
+.toggle-button{}
+
+
+/* CSS */
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+.description-text-t1 {
+    padding: 10px;
+    background: lightgray;
+    border: 1px solid black;
+    max-width: 60vw;
+    margin: auto;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+	accent-color: #006AFF;
+    border-radius: 2px;
+}
+input[type="checkbox"]{
+    margin-left: 20px;
+}
+
+.intermediate-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid #006AFF;
+    background: lightgray;
+}
+.intermediate-text *{
+    margin-top: 5px ;
+}
+.intermediate-text strong{
+    font-weight: bold;
+}
+.hl{
+    border: 1px solid #006AFF;
+    min-width: 10vw;
+    max-width: 10vw;
+}
+
+.grouped-box-plots{
+    display: flex;
+    flex-direction: row;
+}
+.grouped-box-plot-unit{
+    min-width: 40vw;
+}
+
+.tab2-graphs{
+    height: 80vh;
+    width: 80vw;
+}
+
+.graph-expl-t2{
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-expl-t2 p{
+    background: lightgray;
+    padding: 10px;
+    min-width: 10vw;
+}
+
+.outer-div{
+    max-width: 90vw;
+    margin:auto;
+    background: white;
+    padding: 20px;
+}
+
+#year-built-slider{
+    margin-left: 10vw;
+}
+
+#exp-area-t3{
+    background: lightgray;
+    padding: 15px;
+    min-width: 10vw;
+    max-width: 30vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer{
+    min-height: 10vh;
+    max-width: 90vw;
+    padding: 20px;
+    margin: auto;
+    background: white;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer strong{
+    font-size: 50px;
+    color:#006AFF;
+}
+
